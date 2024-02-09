@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(214, 206, 206);
+}
+
+#navbar1 {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+}
+
+#navbar1 .c1 {
+  width: 10vw;
+  height: 10vh;
+  color: white;
+}
+
+#navbar1 .c1:hover {
+  border: 2px solid white;
+}
+
+#navbar1 .c1 img {
+  width: 10vw;
+  height: 10vh;
+}
+
+#navbar1 .c2 {
+  width: 10vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#navbar1 .c2 img {
+  width: 2vw;
+  height: 3vh;
+}
+
+#navbar1 .c2:hover {
+  border: 2px solid white;
+}
+
+#navbar1 .c3 {
+  width: 45vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbar1 .c3 h4 {
+  background-color: rgb(46, 42, 42);
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+}
+
+#navbar1 .c3 img {
+  width: 3vw;
+  height: 7vh;
+  border-right: 2px solid black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#navbar1 .c3 input {
+  width: 35vw;
+  height: 7vh;
+}
+
+#navbar1 .c4 {
+  width: 6vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#navbar1 .c4 img {
+  width: 3vw;
+  height: 5vh;
+}
+
+#navbar1 .c4:hover {
+  border: 2px solid white;
+}
+
+#navbar1 .c5 {
+  width: 12vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#navbar1 .c5:hover {
+  border: 2px solid white;
+}
+
+#navbar1 .c6 {
+  width: 7vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#navbar1 .c6:hover {
+  border: 2px solid white;
+}
+
+#navbar1 .c7 {
+  width: 10vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#navbar1 .c7 img {
+  width: 3vw;
+  height: 5vh;
+}
+
+#navbar1 .c7:hover {
+  border: 2px solid white;
+}
+
+/* !!!!!!!!!!!navbar 1 ends here!!!!!!!!!!!!!!!!! */
+
+#navbar2 {
+  height: 7vh;
+  width: 100vw;
+  display: flex;
+  background-color: rgb(24, 24, 61);
+  color: white;
+}
+
+#navbar2 .start {
+  height: 7vh;
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar2 .start span {
+  color: white;
+}
+
+#navbar2 .end {
+  height: 7vh;
+  width: 60vw;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* !!!!!!!!!!!!!!nav2 ends here!!!!!!!!!!!!!!!!! */
+
+#main1 {
+  width: 100vw;
+  height: 50vh;
+  background: url(https://github.com/Tanzil4/Amazone-clone/blob/main/hero_image.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main1 .main1-content {
+  width: 85vw;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  bottom: -75%;
+}
+
+#main1 .main1-content p {
+  padding: 15px;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  text-align: center;
+}
+
+/* !!!!!!!!!!!!main1 ends here!!!!!!!!!!!!!!!!!!!! */
+
+#main2 {
+  margin-top: 10vh;
+  width: 100vw;
+  height: 200vh;
+}
+
+#main2 #cardssec1 {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main2 #cardssec1 .card1 {
+  height: 60vh;
+  width: 22vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#main2 #cardssec1 .card1 img {
+  width: 20vw;
+  height: 45vh;
+  margin-left: 5%;
+}
+
+
+#main2 #cardssec2 {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main2 #cardssec2 .card1 {
+  height: 60vh;
+  width: 22vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#main2 #cardssec2 .card1 img {
+  width: 20vw;
+  height: 45vh;
+  margin-left: 5%;
+}
+
+
+#main2 #cardssec3 {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main2 #cardssec3 .card1 {
+  height: 60vh;
+  width: 22vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#main2 #cardssec3 .card1 img {
+  width: 20vw;
+  height: 45vh;
+  margin-left: 5%;
+}
